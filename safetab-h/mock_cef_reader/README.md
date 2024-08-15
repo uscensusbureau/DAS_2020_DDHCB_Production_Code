@@ -1,0 +1,2 @@
+# Mock CEF Reader
+Tumult software for the Decennial Census supports two different reader modules: one for reading CSV files, and one for reading CEF files. The CEF reader was developed separately. This mock CEF reader allows software to be tested without the real CEF reader. Rather than reading CEF files, it wraps the CSV reader in the same package as the CEF reader uses.

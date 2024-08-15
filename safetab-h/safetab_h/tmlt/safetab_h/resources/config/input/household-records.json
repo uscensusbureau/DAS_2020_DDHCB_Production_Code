@@ -1,0 +1,200 @@
+{
+    "marshalled": true,
+    "class": "tmlt.common.configuration.Config",
+    "init_params": {
+        "attributes": [
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "TABBLKST",
+                        "pattern": "\\d{2}$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "TABBLKCOU",
+                        "pattern": "\\d{3}$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "TABTRACTCE",
+                        "pattern": "\\d{6}$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "TABBLK",
+                        "pattern": "\\d{4}$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.CategoricalStr",
+                    "init_params": {
+                        "column": "HHRACE",
+                        "values": [
+                            "01",
+                            "02",
+                            "03",
+                            "04",
+                            "05",
+                            "06",
+                            "07",
+                            "08",
+                            "09",
+                            "10",
+                            "11",
+                            "12",
+                            "13",
+                            "14",
+                            "15",
+                            "16",
+                            "17",
+                            "18",
+                            "19",
+                            "20",
+                            "21",
+                            "22",
+                            "23",
+                            "24",
+                            "25",
+                            "26",
+                            "27",
+                            "28",
+                            "29",
+                            "30",
+                            "31",
+                            "32",
+                            "33",
+                            "34",
+                            "35",
+                            "36",
+                            "37",
+                            "38",
+                            "39",
+                            "40",
+                            "41",
+                            "42",
+                            "43",
+                            "44",
+                            "45",
+                            "46",
+                            "47",
+                            "48",
+                            "49",
+                            "50",
+                            "51",
+                            "52",
+                            "53",
+                            "54",
+                            "55",
+                            "56",
+                            "57",
+                            "58",
+                            "59",
+                            "60",
+                            "61",
+                            "62",
+                            "63"
+                        ]
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE1",
+                        "pattern": "[1-9]\\d{3}$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE2",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE3",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE4",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE5",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE6",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE7",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QRACE8",
+                        "pattern": "(Null)|([1-9]\\d{3})$"
+                    }
+                },
+                {
+                    "marshalled": true,
+                    "class": "tmlt.common.configuration.Unrestricted",
+                    "init_params": {
+                        "column": "QSPAN",
+                        "pattern": "[1-9]\\d{3}$"
+                    }
+            },
+            {
+                "marshalled": true,
+                "class": "tmlt.common.configuration.CategoricalInt",
+                "init_params": {
+                    "column": "HOUSEHOLD_TYPE",
+                    "values": [1, 2, 3, 4, 5]
+                }
+            },
+            {
+                "marshalled": true,
+                "class": "tmlt.common.configuration.CategoricalInt",
+                "init_params": {
+                    "column": "TEN",
+                    "values": [1, 2, 3, 4]
+                }
+            }
+        ]
+    }
+}
