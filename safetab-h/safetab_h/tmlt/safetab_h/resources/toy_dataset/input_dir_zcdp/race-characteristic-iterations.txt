@@ -1,0 +1,33 @@
+ITERATION_CODE|ITERATION_NAME|LEVEL|ALONE|DETAILED_ONLY|COARSE_ONLY
+0001|White alone|0|True|Null|Null
+0002|European alone|1|True|False|False
+0003|Albanian alone|2|True|False|False
+0004|Alsatian alone|2|True|True|False
+0070|Other European alone (All geos)|2|True|False|True
+0071|Middle Eastern or North African alone|1|True|False|False
+0074|Assyrian alone|2|True|False|False
+0112|White alone or in combination with one or more other races|0|False|Null|Null
+0113|European alone or in any combination|1|False|False|False
+0114|Albanian alone or in any combination|2|False|False|False
+0115|Alsatian alone or in any combination|2|False|True|False
+0181|Other European alone or in any combination (All geos)|2|False|False|True
+0182|Middle Eastern or North African alone or in any combination|1|False|False|False
+0185|Assyrian alone or in any combination|2|False|False|False
+0225|Sub-Saharan African alone|1|True|False|False
+0226|Angolan alone|2|True|False|False
+0238|Ethiopian alone|2|True|False|False
+0306|Ethiopian alone or in any combination|2|False|False|False
+0293|Sub-Saharan African alone or in any combination|1|False|False|False
+0294|Angolan alone or in any combination|2|False|False|False
+0800|Uncommon1 alone|1|True|True|False
+0801|Uncommon1a alone|2|True|True|False
+0802|Uncommon2 alone|1|True|True|False
+0803|Uncommon2a alone|2|True|True|False
+0804|Uncommon3 alone|1|True|True|False
+0805|Uncommon3a alone|2|True|True|False
+0900|Uncommon1 alone or in any combination|1|False|True|False
+0901|Uncommon1a alone or in any combination|2|False|True|False
+0902|Uncommon2 alone or in any combination|1|False|True|False
+0903|Uncommon2a alone or in any combination|2|False|True|False
+0904|Uncommon3 alone or in any combination|1|False|True|False
+0905|Uncommon3a alone or in any combination|2|False|True|False
