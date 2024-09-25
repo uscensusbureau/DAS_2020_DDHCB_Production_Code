@@ -266,25 +266,3 @@ if __name__ == "__main__":
 
     print("person_df:", p_reader.get_person_df())
 
-    '''
-    import uuid
-    unique_id = uuid.uuid1()
-    model_write = f"cef_reader_{unique_id}"
-    file_name = f"{model_write}.txt"
-    local_file = f"/tmp/{file_name}"
-    s3_file = f"s3://uscb-decennial-ite-das/users/zhou0021/debug/reader/{file_name}"
-
-    print("TEST123-----------------------------")
-    for i in range(10):
-        print(reader.get_person_df().rdd.takeSample(False,1))
-        print("PERDF-----------------")
-        print(reader.get_unit_df().rdd.takeSample(False,1))
-        print("UNIDF_________________")
-
-        with open(local_file, "at+") as f:
-            f.write(f"PER_DF:{reader.get_person_df().rdd.takeSample(False,1)}\n\n")
-            f.write(f"UNIT_DF:{reader.get_unit_df().rdd.takeSample(False,1)}\n\n")
-
-        cmd = ['/usr/bin/aws', 's3', 'cp', local_file, s3_file]
-        subprocess.Popen(cmd, stderr=subprocess.PIPE)
-     '''
