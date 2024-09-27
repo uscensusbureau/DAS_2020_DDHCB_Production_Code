@@ -99,9 +99,6 @@ The phsafe_safetab_reader folder contains all the safetab-p and safetab-h cef re
 This is used for the SafeTab and PHSafe CEF Readers, which convert the CEF microdata files into Spark Dataframes that 
 SafeTab and PHSafe use as inputs.
 
-This also contains code that adds variance information to the SafeTab output as a stopgap until SafeTab updates to 
-include variance information, as well as code that stores the CEF data in a record layout format on s3.
-
 SafeTab Documentation for the format of its inputs is here: 
 https://github.t26.it.census.gov/DAS/tumult-decennial-census-2022-products/blob/main/tumult/safetab_p/SafeTab_P_Documentation.pdf
 
