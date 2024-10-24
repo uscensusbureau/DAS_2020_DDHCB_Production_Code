@@ -28,27 +28,21 @@ software for the Top Down Algorithm (TDA) used in production of the
 2020 Redistricting and the 2020 Demographic & Housing Characteristics
 products.
 
-This software for this repository is divided into five subdirectories:
+This software int this repository is divided across multiple
+sub-directories, including:
 * `configs` contains the specific configuration files used for the
   production DDHC-A runs, including privacy loss budget (PLB) allocations
   and the rules for adaptive table generation. These configurations reflect
   decisions by the Bureau's DSEP (Data Stewardship Executive Policy) committee
   based on experiments conducted by Census Bureau staff.
-* `safetab_p` contains the source code for the application itself as used
+* `safetab-h/safetab_h` contains the source code for the application itself as used
    to generate the protected microdata used in production.
-* `safetab_utils` contains utilities common among the SafeTab products
+* `safetab-h/safetab_utils` contains utilities common among the SafeTab products
   developed by Tumult for the Census Bureau.
 * `mitre/cef_readers` contains code by MITRE to read the Census input
   files used by the SafeTab applications.
-* `ctools` contains Python utility libraries developed the the Census
-  Bureau's DAS team and used by the MITRE CEF readers.
 * `tumult` contains the Tumult Analytics platform. This is divided
    into `common`, `analytics`, and `core` directories. The `core` directory
    also includes a pre-packaged Python *wheel* for the core library.
-* *WARNING*: the pre-packaged Python wheel in this repository contains
-  a binary version of pyarrow containing the `pyarrow` vulnerability
-  identified in 2023
-  (https://nvd.nist.gov/vuln/detail/CVE-2023-47248). The SAFETAB-P
-  code itself does not expose this vulnerability, but modifications
-  should rebuild the wheel from sources beneath the `tumult/core`
-  prefix or later sources from Tumult itself.
+* `ctools` contains Python utility libraries developed the the Census
+  Bureau's DAS team and used by the MITRE CEF readers.
