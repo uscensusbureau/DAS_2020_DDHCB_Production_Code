@@ -21,7 +21,7 @@ the Detailed Demographic & Housing Characteristics publications, this
 includes code developed under contract by Tumult Software (tmlt.io)
 and MITRE corporation. Tumult's underlying platform is evolving and
 the code in the repository is a snapshot of the code used for the
-DDHC-B.
+production of the DDHC-B product.
 
 The bureau has already separately released the internally developed
 software for the Top Down Algorithm (TDA) used in production of the
@@ -31,7 +31,7 @@ products.
 This software int this repository is divided across multiple
 sub-directories, including:
 * `configs` contains the specific configuration files used for the
-  production DDHC-A runs, including privacy loss budget (PLB) allocations
+  production DDHC-B runs, including privacy loss budget (PLB) allocations
   and the rules for adaptive table generation. These configurations reflect
   decisions by the Bureau's DSEP (Data Stewardship Executive Policy) committee
   based on experiments conducted by Census Bureau staff.
