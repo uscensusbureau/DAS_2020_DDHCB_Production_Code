@@ -17,16 +17,6 @@ Copyright 2024 Tumult Labs
 
 This repository contains SafeTab-H and its supporting Tumult-developed libraries. For instructions on running SafeTab-H, see its [README](safetab_h/README.md).
 
-### Access to the Deliverable
-
-The source code and documentation for this deliverable can be accessed by executing the following command at the command line (or entering the URL into the clone window of a client, e.g., Github Desktop):
-
-```
-git clone https://decennial-census:AaY8XLQ8_zanZhSiKtJf@gitlab.com/tumult-labs/safetab-h-release.git
-```
-
-In the URL above, `AaY8XLQ8_zanZhSiKtJf` is a Gitlab deploy token associated with the username `decennial-census`.  This grants read access to this repository.
-
 ### Contents
 
 In the repository there are six folders, each of which contains a component of the release:
@@ -42,6 +32,7 @@ SafeTab-H also requires a CEF reader module for reading data from Census' file f
 
 For details, consult each library's `README` within its respective subfolder. To see which new features have been added since the previous versions, consult their respective `CHANGELOG`s.
 
+<<<<<<< HEAD
 ### Synthetic Data
 
 This release also comes with a set of synthetic data files that can be used to test SafeTab-H. The ZIP file containing the sample files is hosted on Amazon Simple Storage Service (Amazon S3). Please note that the download link will be valid until 2024-04-09 at 12:00 pm Eastern.
@@ -80,3 +71,5 @@ The download file is `safetab-h-full-size-synthetic-data.zip` will contain the f
 - `pop-group-totals.txt`: The T1 output file from a SafeTab-P run on a 300 million record synthetic dataset.
 
 See [SafeTab-H Spec Doc](safetab_h/SafeTab_H_Documentation.pdf) for a description of each file. See the [SafeTab-H Library `README`](safetab_h/README.md) for more input directory setup notes.
+=======
+>>>>>>> main
